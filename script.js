@@ -147,7 +147,7 @@ function detectCollision() {
             foods.splice(i, 1);
 
             if(foods.length==0){
-                alert(`Vitory! You finished in ${elapsedTime} seconds.`)
+                alert(`Victory! You finished in ${elapsedTime} seconds.`)
                 resetGame();
             }
             break;
