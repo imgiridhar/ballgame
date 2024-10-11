@@ -1,0 +1,37 @@
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      background-color: powderblue;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    #gameCanvas {
+      width: 100vw;
+      height: 100vh;
+      background-color: powderblue;
+      cursor: pointer;
+  }
+  
+    .bomb{
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: #db3434;
+      border-radius: 50%;
+  
+  }
+  .food {
+    position: absolute;
+    background-color: #3ECE3C;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.player {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #F49CBB;
+  border-radius: 50%;
+}
