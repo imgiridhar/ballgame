@@ -1,6 +1,6 @@
 const gameCanvas = document.getElementById('gameCanvas');
-const foodCount = 10;
-const bombCount = 5;
+const foodCount = 5;
+const bombCount = 1;
 const balls = [];
 let bombs = [];
 let foods = [];
@@ -145,6 +145,11 @@ function detectCollision() {
             player.style.height = newSize;
             gameCanvas.removeChild(foods[i].el);
             foods.splice(i, 1);
+
+            if(foods.length==0){
+                alert(`Vitory! You finished in ${elapsedTime} seconds.`)
+                resetGame();
+            }
             break;
         }
     }
