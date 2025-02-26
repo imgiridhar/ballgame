@@ -4,7 +4,7 @@ const bombCount = 5;
 const balls = [];
 let bombs = [];
 let foods = [];
-const speed = 5;
+const speed = 3;
 const player = document.createElement('div');
 player.className = 'player';
 gameCanvas.appendChild(player);
